@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Travel plus - Project" verbose="2" >
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+    <test name="Regression Test" >
+        <classes>
+            <!--<class name="OpenBrowserTest" />
+            <class name="adminTest.UserMasterTest"/>
+            <class name="adminTest.ChangePasswordTest"/>
+            <class name="adminTest.PermissionTest"/>-->
+            <class name="LoginTest"/>
+
+        </classes>
+    </test>
+
+</suite>
